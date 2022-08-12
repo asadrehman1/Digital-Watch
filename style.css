@@ -1,0 +1,60 @@
+.container{
+    background-color:rgb(164, 40, 164);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    box-shadow: 0px 0px 10px 1px rgb(114, 8, 114);
+    padding: 40px 10px;
+    width:50%;
+    text-align: center;
+}
+h1 span{
+    font-size:50px
+}
+.btn{
+    padding: 10px 35px;
+    border: 1px solid white;
+    background-color:rgb(164, 40, 164);
+    color: white;
+    margin: 0 5px;
+}
+#digWatch{
+    margin-bottom: -10px;
+    margin-top: -5px;
+    font-size: 60px;
+    white-space: nowrap;
+}
+@media(max-width:773px){
+    .row{
+        width: 67%;
+    }
+}
+@media(max-width:596px){
+    #digWatch{
+        font-size: 45px;
+    }
+    .row{
+        width:80%;
+    }
+}
+@media(max-width:448px){
+    .row{
+        width:94%
+    }
+    #digWatch{
+        font-size: 37px;
+    }
+    .btn{
+        padding: 5px 10px;
+    }
+    h1 span{
+        font-size: 33px;
+    }
+}
